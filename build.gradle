@@ -3,11 +3,11 @@ buildscript {
     jcenter { url 'http://pi.iccapp.com:58081/nexus/content/repositories/jcenter/' }
   }
   dependencies {
-    classpath 'com.android.tools.build:gradle:2.0.0-beta4'
+      classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3' // Add this line
   }
 }
 
-apply plugin: 'com.android.application'
+apply plugin: 'com.github.dcendents.android-maven'  
 
 dependencies {
     compile 'com.android.support:support-v4:20.0.+'
