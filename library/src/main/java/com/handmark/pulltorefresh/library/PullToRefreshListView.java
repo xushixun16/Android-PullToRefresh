@@ -14,7 +14,7 @@
  * limitations under the License.
  *******************************************************************************/
 package com.handmark.pulltorefresh.library;
-
+// Tyler Test
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -40,6 +40,8 @@ public class PullToRefreshListView extends PullToRefreshAdapterViewBase<ListView
 	private FrameLayout mLvFooterLoadingFrame;
 
 	private boolean mListViewExtrasEnabled;
+
+	private boolean tyler;
 
 	public PullToRefreshListView(Context context) {
 		super(context);
